@@ -22,12 +22,14 @@
             max-width: 800px;
             margin: 2rem auto;
             padding: 0 1rem;
+            padding-bottom: 6rem;
         }
         section {
             background-color: white;
             padding: 2rem;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
         }
         footer {
             text-align: center;
@@ -37,6 +39,26 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+        .updates-list {
+            list-style: none;
+            padding: 0;
+        }
+        .updates-list li {
+            padding: 1rem 0;
+            border-bottom: 1px solid #eee;
         }
     </style>
 </head>
@@ -48,6 +70,41 @@
         <section>
             <h2>About Us</h2>
             <p>This is a simple test page for our new society project.</p>
+        </section>
+        
+        <section>
+            <h2>Our Mission</h2>
+            <p>To create a more connected and sustainable community through innovation, collaboration, and shared values.</p>
+        </section>
+
+        <section>
+            <h2>Our Values</h2>
+            <ul>
+                <li>Transparency and openness</li>
+                <li>Community-driven development</li>
+                <li>Sustainable practices</li>
+                <li>Inclusive participation</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Get Involved</h2>
+            <p>There are many ways to contribute to our community and make a difference.</p>
+            <a href="#" class="cta-button">Join Us Today</a>
+        </section>
+
+        <section>
+            <h2>Latest Updates</h2>
+            <ul class="updates-list">
+                <li>
+                    <h3>New Website Launch</h3>
+                    <p>We're excited to announce the launch of our new website!</p>
+                </li>
+                <li>
+                    <h3>Community Meeting</h3>
+                    <p>Join us for our monthly community meeting this Saturday.</p>
+                </li>
+            </ul>
         </section>
     </main>
     <footer>
